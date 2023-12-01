@@ -1,0 +1,38 @@
+quy tắc đặt tên hàm
+ +Tên hàm phải bắt đầu là một động từ
+ +Viết theo kiểu camel case 
+ +không chứa các kí tự đặc biệt như :%,#,@...trừ $ và _ 
+ +không bắt đầu là một chữ số
+ +Đối với những hàm nào mà thực hiện lấy dữ liệu ,... thì bắt đầu bằng từ get
+  Ví dụ :getData , getProduct ,getUser,...
++Đối với những hàm nào thực hiện chỉnh sửa nên bắt đầu bằng set , update
+    ví dụ : setUserName , updateInfo ,...
++Viết bằng tiếng anh , không dấu và phải có ý nghĩa
+
+tham số trong hàm :
+    +tham số là những giá trị được truyền vào tại thời điểm hàm được khai báo 
+    +Tham số trong hàm không giới hạn số lượng và kiểu dữ liệu
+
+Đối số 
+    +là những giá trị được truyền vào tại thời điểm gọi
+    +thông thường số lượng tham số và đối số phải bằng nhau
+
+Từ khóa return trong hàm là một phần rất quan trọng nó sẽ quyết định giá trị trả về
+    +Từ khóa return được sử dụng để trả về kết quả cho hàm 
+    +nếu k có return nó sẽ trả về giá trị undefined
+
+Gọi hàm 
+    +hàm chỉ được thực thi khi nó được gọi
+    +khi gọi thì chúng ta sử dụng toán tử call kí hiệu dấu ()
+
+Mục đích của hàm :
+    +giúp bảo trì code 
+    +tái sử dụng lại code
+Comment hàm
+    +chức năng của hàm 
+    +tên các tham số của hàm
+    +kết quả trả về
+    +tác giả và ngày viết
+    +người cập nhật gần nhất
+
+    
